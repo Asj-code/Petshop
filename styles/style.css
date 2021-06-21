@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+header ul li a {
+    color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.nav-bar {
+    background-color: #F0A83E;
+    height: 130px;
+}
+
+.nav-bar-links {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.front-log {
+    color: #000000;
+}
+
+.cat-logo {
+    color: #FFFFFF;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.banner {
+    background-image: url("/img/banner.png");
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.cards {
+    background-color: #FBFAF6;
+}
+
+.price {
+    color: #F0A83E;
+}
+
+.copyrights{
+    background-color:#F0A83E;
+    color: #FFFFFF;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.contact {
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+.front {
+    color: #FFFFFF;
+}
+.cat {
+    color: #F0A83E;
+}

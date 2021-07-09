@@ -99,7 +99,7 @@ li {
     margin: 20px 0 40px 0;
 }
 
-h2 {
+.banner-title {
     width: 365px;
     height: 54px;
     background-color: #FFFFFF;
@@ -150,7 +150,65 @@ h1 {
     text-align: center;
 }
 
+/* Contactanos section */
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.contactanos input {
+    width: 340px;
+    height: 40px;
+    background: #3C2313;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 8px;
+}
+
+.contactanos button {
+    color: #FFFFFF;
+    width: 110px;
+    height: 34px;
+    background: #8A8787;
+    border-radius: 15px;
+    margin-top: 10px;
+    border: #8A8787;
+}
+
+.contactanos button[type="submit"]{
+    background-color: #F0A83E;
+    border: #F0A83E;
+}
+
 /* Footer */
+
+.suscripcion {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #F0A83E;
+    align-items: center;
+    padding: 0 30px;
+    color: #FFFFFF;
+}
+
+.suscripcion input, button {
+    border-radius: 15px;
+    height: 30px;
+}
+
+.suscripcion button {
+    background-color: #3C2313;
+    color: #FFFFFF;
+    padding: 5px 10px;
+}
+
+.suscripcion input {
+    width: 270px;
+}
 
 .logo-footer {
     margin: 200px;

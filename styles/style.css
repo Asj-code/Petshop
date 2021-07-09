@@ -5,10 +5,7 @@
     margin: 0;
     padding: 0;
 }
-header {
-    background-color: #000000;
-    color: #FFFFFF;
-}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -24,10 +21,16 @@ li {
 
 /* Menu */
 
+#menu-hamburguesa {
+    display: none;
+}
+
 .header-menu {
     display: flex;
     justify-content: space-between;
     padding: 10px 100px;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 .nav-bar {
     align-items: center;
@@ -204,4 +207,34 @@ h1 {
         margin: 0;
         
     }
+
+    #menu-hamburguesa {
+        display: block;
+        color: #FFFFFF;
+    }
+
+    .nav-bar {
+        flex-direction: row-reverse;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .banner-container {
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    .banner {
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        align-content: space-around;
+        text-align: end;
+    }
+
 }
